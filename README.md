@@ -284,7 +284,7 @@ let configObj = {
   body: JSON.stringify(formData)
 };
 
-fetch("http://localhost:3000/dogs", configObj);
+fetch("http://localhost:3000/users", configObj);
 ```
 
 **Note**: As a security precaution, most modern websites block the ability to
